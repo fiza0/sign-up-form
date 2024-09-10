@@ -6,3 +6,8 @@
     box-sizing: border-box;
     font-family:"Raleway",sans-serif ;
 }
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
