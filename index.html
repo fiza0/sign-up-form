@@ -13,10 +13,32 @@
     </div>
     <div class="form-container">
         <div class="form-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita. Ullam autem vitae incidunt molestias eveniet laborum dolore! Expedita quia esse quasi quam inventore distinctio ea. Officiis qui itaque hic?</div>
-        <form action="">
-            
+        <form action="index.html" method="get">
+            <div class="form-row">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" name="firstname" id="firstname">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div class="form-row">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+                <label for="phonenumber">TELEPHONE</label>
+                <input type="tel" name="phonenumber" id="phonenumber">
+            </div>
+            <div class="form-row">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+            </div>
+            <div>
+                <button type="submit">
+                    Sign up
+                </button>
+            </div>
         </form>
-        <a href="" class="sign-up">Already have an account?Log in</a>
+        <a href="index.html" class="sign-up">Already have an account?Log in</a>
     </div>
 </body>
 </html>
