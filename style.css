@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    height: 100%;
 }
 .image-container {
     background-image: url("images/green-background.jpg");
@@ -62,4 +63,7 @@ button {
 a {
     color: inherit;
     text-decoration: none;
+}
+input:user-invalid{
+    border-color: red;
 }

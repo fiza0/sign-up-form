@@ -9,7 +9,7 @@
 <body>
     <div class="image-container">
         <div class="logo">
-            my logo
+            
         </div>
     </div>
     <div class="form-container">
@@ -33,17 +33,17 @@
                 </div>
                 <div class="input-container">
                     <label for="phonenumber">TELEPHONE</label>
-                    <input type="tel" name="phonenumber" id="phonenumber">
+                    <input type="tel" name="phonenumber" id="phonenumber" pattern="[0-9]{8,12}">
                 </div>
             </div>
             <div class="form-row">
                 <div class="input-container">
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" minlength="8">
                 </div>
                 <div class="input-container">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
+                    <input type="password" name="confirm-password" id="confirm-password" minlength="8">
                 </div>
             </div>
             <div>
