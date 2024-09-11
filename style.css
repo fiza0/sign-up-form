@@ -11,19 +11,55 @@ body {
     flex-direction: row;
     gap: 24px;
 }
+.image-container {
+    background-image: url("images/green-background.jpg");
+    background-color: rgb(150, 225, 150);
+    min-width: 500px;
+    background-size: cover;
+}
 .form-container{
     padding:50px 10px;  
 }
 .form-intro{
     margin: 50px 0px;
+    font-size: 24px;
+    font-weight: 600;
 }
 .form-header{
     font-weight: 600;
     font-size: 24px;
 }
 .form-row{
-    margin: 10px 0px;
+    margin: 24px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 30px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    font-weight: 100;
+    font-size: 12px;
+
+}
+.input-container input {
+    border:1px solid rgb(205, 200, 200);
+    border-radius: 5px;
+    width: 250px;
+    height: 36px;
+    padding: 6px;
+}
+button {
+    width: 125px;
+    height: 48px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(150, 225, 150);
+    margin: 24px 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
 }

@@ -8,11 +8,12 @@
 </head>
 <body>
     <div class="image-container">
-        <img src="/Users/issa/Desktop/repos/sign-up-form/halie-west-25xggax4bSA-unsplash.jpg" alt="pretty picture on the side" class="sidebar" width="400px" height="100%">
-        <div></div>
+        <div class="logo">
+            my logo
+        </div>
     </div>
     <div class="form-container">
-        <div class="form-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita. Ullam autem vitae incidunt molestias eveniet laborum dolore! Expedita quia esse quasi quam inventore distinctio ea. Officiis qui itaque hic?</div>
+        <div class="form-intro">This is not a real online service!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita. Ullam autem vitae incidunt molestias eveniet laborum dolore! Expedita quia esse quasi quam inventore distinctio ea. Officiis qui itaque hic?</div>
         <form action="index.html" method="get">
             <div class="form-header">Let's do this</div>
             <div class="form-row">
@@ -26,16 +27,24 @@
                 </div>
             </div>
             <div class="form-row">
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" required>
-                <label for="phonenumber">TELEPHONE</label>
-                <input type="tel" name="phonenumber" id="phonenumber">
+                <div class="input-container">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="phonenumber">TELEPHONE</label>
+                    <input type="tel" name="phonenumber" id="phonenumber">
+                </div>
             </div>
             <div class="form-row">
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-password" id="confirm-password">
+                <div class="input-container">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="input-container">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </div>
             </div>
             <div>
                 <button type="submit">
@@ -43,7 +52,7 @@
                 </button>
             </div>
         </form>
-        <a href="index.html" class="sign-up">Already have an account?Log in</a>
+        <p>Already have an account? <a href="index.html" class="sign-up">Log in</a> </p>
     </div>
 </body>
 </html>
