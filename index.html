@@ -12,17 +12,22 @@
         <div></div>
     </div>
     <div class="form-container">
-        <div class="form-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita. Ullam autem vitae incidunt molestias eveniet laborum dolore! Expedita quia esse quasi quam inventore distinctio ea. Officiis qui itaque hic?</div>
+        <div class="form-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita. Ullam autem vitae incidunt molestias eveniet laborum dolore! Expedita quia esse quasi quam inventore distinctio ea. Officiis qui itaque hic?</div>
         <form action="index.html" method="get">
+            <div class="form-header">Let's do this</div>
             <div class="form-row">
-                <label for="firstname">FIRST NAME</label>
-                <input type="text" name="firstname" id="firstname">
-                <label for="lastname">LAST NAME</label>
-                <input type="text" name="lastname" id="lastname">
+                <div class="input-container">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+                <div class="input-container">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
             </div>
             <div class="form-row">
                 <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
                 <label for="phonenumber">TELEPHONE</label>
                 <input type="tel" name="phonenumber" id="phonenumber">
             </div>
