@@ -81,9 +81,12 @@ a:visited{
 input:user-invalid{
     border-color: red;
 }
-.logo {
+.logo>a {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left:50%;
     transform: translate(-50%,0%);
+    color: beige;
+    font-size: 50px;
+    font-weight: 1000;
 }
